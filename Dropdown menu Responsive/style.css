@@ -1,0 +1,103 @@
+/*===================================== 
+Common Css
+=======================================*/
+body{
+  color: #b3b3b3;
+  font-family: Georgia, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+
+}
+
+/*===================================== 
+inner-menu css coding
+=======================================*/
+
+.inner-menu{
+  background: #333333;
+  min-height: 30px;
+  padding: 15px 0;
+  border-radius: 5px;
+}
+#main-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+#main-menu ul li{
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
+}
+#main-menu ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+
+}
+#main-menu ul li a:hover{
+  color: #ba2e1f;
+}
+
+#main-menu ul li:hover a{
+  color: #ba2e1f;
+}
+#main-menu ul li:hover ul li a{
+  color: #fff;
+}
+/*Dropdown Style*/
+#main-menu ul ul{
+  position: absolute;
+  background: #ba2e1f;
+  width: 180px;
+  left: -9999999px;
+  top: 33;
+}
+#main-menu ul li:hover ul{
+  
+  left: 0;
+  
+}
+#main-menu ul li:hover ul ul{
+  left: -9999999px;
+}
+#main-menu ul ul ul{
+  left: -9999999px;
+  top: 0px; 
+}
+#main-menu ul li:hover ul li:hover ul{
+  left: 180px;
+}
+
+#main-menu ul ul li{
+  margin: 0;
+  display: block;
+  
+}
+#main-menu ul ul li a:hover{
+  background: #333333;
+  color: #fff;
+  
+}
+#main-menu ul ul li:hover a{
+  background: #333333;
+  color: #fff;
+  
+}
+#main-menu ul ul li:hover ul li a{
+  background: none;
+  color: #fff;
+  
+}
+#main-menu ul ul li ul li a:hover{
+  background: #333333;
+  color: #fff;
+  
+}
+
+
+

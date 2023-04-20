@@ -1,0 +1,12 @@
+/* Teblet Layout */
+@media (max-width:991px){
+.inner-menu {
+    background: none;
+    min-height: auto;
+}
+.mean-container .mean-nav {
+    margin-top: 0;
+    width: 80%;
+}
+
+}
